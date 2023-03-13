@@ -99,7 +99,7 @@ function createCityList(citySearchList) {
               console.log(queryURL2);
     
               console.log(forecast);
-              // Loop through the forecast list array and display a single forecast entry (5th entry is choosen because it is th most ) 
+              // Loop through the forecast list array and display a single forecast entry (5th entry is choosen because it is th most accurate) 
               for (var i = 6; i < forecast.list.length; i += 8) {
                 // 6, 14, 22, 30, 38
                 var forecastDate = $("<h5>");
